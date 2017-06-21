@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+   <style type="text/css">
+      form {
+         background-color: #efefef;
+         width: 400px;
+         margin: 0 auto;
+         border: 1px solid #000;
+         box-shadow: 0px 0px 5px #f00;
+         padding: 10px;
+          
+      }
+       
+       div.input.input-middle {
+         display: inline-block;
+           float: left;
+           margin: 10px;
+       }   
+       .clear {
+           clear: both;
+       }
+       
+       div.input.input-miggle.mess {
+           float: none;
+       }
+   </style>
+</head>
+<body>
+
+<form action="">
+  <div class="form-wrap">
+   <div class="form-line">
+    <div class="input input-middle"> 
+    <label for="login">
+         <span class="icon login-icon"></span>
+     </label>
+     <input type="text" placeholder="login" id="login">  
+     </div>
+     <div class="input input-middle"> 
+    <label for="email">
+         <span class="icon email-icon"></span>
+     </label>
+     <input type="email" placeholder="email" id="email">  
+     </div>
+  </div>
+  <div class="clear"></div>
+  <div class="form-line">
+      <div class="input input-middle"> 
+    <label for="theme">
+    <span class="icon theme-icon"></span>
+     </label>
+     <input type="text" placeholder="theme" id="theme">  
+     </div>
+ </div>
+   <div class="clear"></div>
+    <div class="form-line">
+      <div class="input input-middle mess"> 
+    <label for="message">
+    <span class="icon message-icon"></span>
+     </label>
+          <textarea name="message" id="message" placeholder="type your message" rows="6"></textarea>  
+      </div>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
